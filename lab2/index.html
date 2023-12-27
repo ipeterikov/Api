@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOAP calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/add" method="post" id="form_add">
+        <div class="row">
+            <input id="first_num" name="first_num" type="number" >
+        </div>
+        
+        <div class="row">
+            <input id="second_num" name="second_num" type="number">
+        </div>  
+
+        <input type="submit" id="add_btn" value="Add">
+    </form>
+
+    <form action="/sub" method="post" id="form_sub">
+        <div class="row">
+            <input id="first_num" name="first_num" type="number" >
+        </div>
+        
+        <div class="row">
+            <input id="second_num" name="second_num" type="number">
+        </div>  
+
+        <input type="submit" id="sub_btn" value="Subtract">
+    </form>
+
+    <form action="/mult" method="post" id="form_mult">
+        <div class="row">
+            <input id="first_num" name="first_num" type="number" >
+        </div>
+        
+        <div class="row">
+            <input id="second_num" name="second_num" type="number">
+        </div>  
+
+        <input type="submit" id="mult_btn" value="Multiply">
+    </form>
+
+    <form action="/div" method="post" id="form_div">
+        <div class="row">
+            <input id="first_num" name="first_num" type="number" >
+        </div>
+        
+        <div class="row">
+            <input id="second_num" name="second_num" type="number">
+        </div>  
+
+        <input type="submit" id="div_btn" value="Divide">
+    </form>
+</body>
+</html>
